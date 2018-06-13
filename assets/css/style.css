@@ -18,6 +18,15 @@
     background: #ccc; 
 }
 
+.vcenter-t {
+	display: table;
+}
+
+.vcenter {
+	display: table-cell;
+	vertical-align: middle;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif !important;
 }
@@ -982,7 +991,6 @@ a.phone-a {
 	}
 }
 
-
 /* XS */
 @media(max-width:768px){
 	.navbar {
@@ -1316,5 +1324,14 @@ a.phone-a {
 
 	#phone-link-xs {
 		color: white !important;
+	}
+
+	.absolute-center-table {
+		display: table;
+	}
+
+	.absolute-center {
+		display: table-cell;
+    	vertical-align: middle;
 	}
 }
