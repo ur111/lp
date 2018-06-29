@@ -891,7 +891,7 @@ a.phone-a {
 		top: 110px;
 		right: 80px;
 		width: 250px;
-		height: 300px;
+		height: 335px;
 		padding: 15px;
 		background: #fff;
 		border: 5px #FBB12E solid;
@@ -1333,5 +1333,9 @@ a.phone-a {
 	.absolute-center {
 		display: table-cell;
     	vertical-align: middle;
+	}
+
+	.hidden-xs {
+		display: none;
 	}
 }
